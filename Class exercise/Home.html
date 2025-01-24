@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <body>
+        <!--headings-->
+        <h1>First Heading</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <!--paragraphs-->
+        <p>This is a paragraph.</p>
+        <!--Buttons-->
+        <button><a href="https://strathmore.edu/">Click me</a></button>
+        <!--List-->
+        <!--Ordered list-->
+        <ol>
+            <!--List items-->
+            <li>DBIT</li>
+            <li>BBIT</li>
+            <li>DBM</li>
+            <li>DIR</li>
+            </ol>
+            <!-- Unordered list-->
+             <ul>
+            <!--List items-->
+            <li>Car</li>
+            <li>Motorbike</li>
+            <li>Trucks</li>
+            <li>Bulldozer</li>
+             </ul>
+
+             <!--Images-->
+             <img src="https://hips.hearstapps.com/hmg-prod/images/2025-ford-mustang-60th-anniversary-exterior-66227932bb88e.jpg?crop=0.596xw:1.00xh;0.199xw,0&resize=768:*" width="50%">
+             <br>
+             <a href="classex.html" target="_blank"><img src="bentley.jpeg" alt="Bentley" id="bentley"></a>
+             <br>
+                <!--Links-->
+                <a href="Structer.html">Structer</a>
+                <br>
+                <a href="https://strathmore.edu/" target="_blank">Strathmore</a>
+                <!--Tables-->
+                <table border="1px" width="50%">
+                    <!--Table Row-->
+                    <thead>
+                        <tr>
+                            <!--Table Data-->
+                            <td>Name</td>
+                            <td>Course</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mary</td>
+                            <td>DBIT</td>                        
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>BBIT</td>
+                        </tr>
+                        <tr>
+                            <td>Miles</td>
+                            <td>DBM</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--Forms and form elements-->
+                <h2>Registration form</h2>
+                <!--Action-action to take place when the form is submited-->
+                <!--Method- method to be used to submit the form-->
+                <form action="Structer.html" method="post">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="Full Name" placeholder="Enter Full Name" id="fullname"><!--Inputting alphanumeric characters-->
+                    <label>Password</label>
+                    <!--Inputting type password-->
+                    <input type="password" name="userpass" placeholder="Enter Password">
+                    <br>
+                    <label>Age</label>
+                    <!--Inputting type numbers-->
+                    <input type="number" name="Age" placeholder="Enter Age">
+                    <label>Student ID</label>
+                    <!--Inputting type File-->
+                    <input type="file" name="Student ID">
+                    <br>
+                    <label>Email</label>
+                    <!--Inputing type emaail-->
+                    <input type="email" name="userEmail" placeholder="Enter Email">
+                    <label>Date</label>
+                    <!--Inputting type date-->
+                    <input type="date" name="DOB">
+                    <br>
+                    <label>Color</label>
+                    <!--Inputting type color-->
+                    <input type="color" name="Color">
+                    <br>
+                    <label>Gender:</label>
+                    <!--Inputting type radio-->
+                    <label>Male</label>
+                    <input type="radio" name="Gender" value="Male">
+                    <label>Female</label>
+                    <input type="radio" name="Gender" value="Female">
+                    <br>
+                    <label>Units registered</label>
+                    <br>
+                    <!--Inputting type checkbox-->
+                    <label>Web Application</label>
+                    <input type="checkbox" name="Unit1" value="Web">
+                    <label>IS Project</label>
+                    <input type="checkbox" name="Unit2" value="IS">
+                    <label>Data Structure </label>
+                    <input type="checkbox" name="Unit3" value="DSA">
+                    <br>
+                    <label>Submit</label>
+                    <!--Select-->
+                    <label>Course: </label>
+                    <select name="Course">
+                        <!--Options-->
+                        <option value="">--Select Course--</option>
+                        <option value="1">DBIT</option>
+                        <option selected>BBIT</option>
+                        <option>DBM</option>
+                        <option>DIR</option>
+                    </select>
+                    <br>
+                    <!--Text Area-->
+                    <label>Personal statement(500 words)</label>
+                    <textarea name="Statement" rows="5" cols="15"></textarea>
+                    <br>
+                    <!--Inputting type submit-->
+                    <input type="submit" name="Submit">
+                    <label>Reset</label>
+                    <!--Inputting type reset-->
+                    <input type="reset" name="Reset">
+                    <label>Button</label>
+                    <!--Inputting type button-->
+                    <input type="button" name="Course" value="login">
+                </form>
+                <table border="1PX" cellspacing="0px" width="50%">
+                    <tr>
+                        <th colspan="3">Strathmore Institute</th>
+                        <th rowspan="4">2025 Class</th>
+                    </tr>
+                    <tr>
+                        <th>Student</th>
+                        <th>Date of Birth</th>
+                        <th>Course</th>
+                    </tr>
+                    <tr>
+                        <td>Mike</td>
+                        <td>12/o2/2005</td>
+                        <td>DBM</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>11/06/2004</td>
+                        <td>DBIT</td>
+                    </tr>
+            </table>
+    </body>
+</html>
